@@ -32,6 +32,6 @@ COPY euler /root/euler
 
 COPY Rprofile.site /usr/lib/R/etc/
 
-EXPOSE 3838
+EXPOSE 4141
 
 CMD ["R", "-e", "shiny::runApp('/root/euler')"]
